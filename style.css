@@ -1,0 +1,79 @@
+body{
+    background-color: #170312;
+    text-align: center;
+    align-items: center;
+}
+
+.control-panel{
+    top: 40%;
+    left: 37%;
+    margin: auto;
+    display: flex;
+    position: absolute; 
+    min-width: 450px;
+    min-height: 150px;
+    max-width: 450px;
+    max-height: 150px;
+    background-color: #531253;
+    border-color: #531253;
+    border-right: #3d0e3d;
+    border-bottom: #3d0e3d;
+    border-width: 15px;
+    border-style: solid;
+    border-radius: 5%;
+    box-shadow: #33032fbf 3px 3px 3px 3px;
+}
+
+.slider{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    min-height: 30px;
+    max-width: 300px;
+    max-height: 30px;
+    background-color: #3d0e3d;
+    box-shadow: #33032fbf 6px 6px 3px 3px inset;
+}
+
+.dial{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    min-width: 75px;
+    min-height: 75px;
+    max-width: 105px;
+    max-height: 105px;
+    background-color: #97d8b2;
+    color: #97d8b2;
+    border-right: #8ac5a2;
+    border-bottom: #8ac5a2;
+    border-width: 15px;
+    border-style: solid;
+    box-shadow: #33032fbf 6px 6px 6px 6px;
+    border-radius: 15%;
+}
+
+.dial:hover{
+    background-color: #8ac5a2;
+    color: #8ac5a2;
+    border-right: #6e9e82;
+    border-bottom: #6e9e82;
+    border-width: 15px;
+    border-style: solid;
+    cursor: pointer;
+    box-shadow: #33032fbf 3px 3px 6px 6px;
+}
+
+.dial:active{
+    background-color: #6e9e82;
+    color: #6e9e82;
+    border-right: #537662;
+    border-bottom: #537662;
+    border-width: 15px;
+    border-style: solid;
+    cursor: pointer;
+    box-shadow: #33032fbf 3px 3px 3px 3px;
+}
