@@ -33,10 +33,10 @@ function executeDrag(e){
     curX = initX - e.clientX;
     initX = e.clientX;
     var currentXPos = sliderDial[0].offsetLeft - curX;
-    if(parseInt(sliderDial[0].style.left.substring(0, sliderDial[0].style.left.length - 2)) >= 35 && parseInt(sliderDial[0].style.left.substring(0, sliderDial[0].style.left.length - 2)) <= 335
-    && currentXPos >= 35 && currentXPos <= 335){
+    if(parseInt(sliderDial[0].style.left.substring(0, sliderDial[0].style.left.length - 2)) >= 35 && parseInt(sliderDial[0].style.left.substring(0, sliderDial[0].style.left.length - 2)) <= 265
+    && currentXPos >= 35 && currentXPos <= 265){
         sliderDial[0].style.left = currentXPos + "px";
-        if(parseInt(sliderDial[0].style.left.substring(0, sliderDial[0].style.left.length - 2)) > 35 && parseInt(sliderDial[0].style.left.substring(0, sliderDial[0].style.left.length - 2)) < 335){
+        if(parseInt(sliderDial[0].style.left.substring(0, sliderDial[0].style.left.length - 2)) > 35 && parseInt(sliderDial[0].style.left.substring(0, sliderDial[0].style.left.length - 2)) < 265){
             atBorder = false;
         }else{
             if(!atBorder){
